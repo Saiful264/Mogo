@@ -13,6 +13,9 @@ ol,
 ul {
   list-style-type: none;
 }
+html,body{
+  scroll-behavior: unset !important;
+}
 /* navbar css part */
 .navbar {
   position: absolute;
@@ -182,6 +185,10 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 .overlay-item h3 {
   font-family: "Montserrat", sans-serif;
@@ -354,6 +361,56 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.gal-item{
+  position: relative;
+}
+.gal-item:hover .work-overlay{
+  opacity: 1;
+}
+.work-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    hsla(47, 95%, 76%, 0.9),
+    hsla(0, 83%, 73%, 0.9)
+  );
+  opacity: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.oveerlay-items{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.oveerlay-items i{
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+.oveerlay-items h6{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+}
+.oveerlay-items p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  font-style: italic;
+}
 /* work css end */
 /* footer css part */
 #footer {
@@ -488,3 +545,58 @@ ul {
   padding-top: 14px;
 }
 /* footer css end */
+/* sticky menu */
+.sticky-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 15px 17px -6px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 0px 15px 17px -6px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 15px 17px -6px rgba(0,0,0,0.45);
+  z-index: 999;
+  animation: sticky 1s;
+  -webkit-animation: sticky 1s;
+}
+
+@keyframes sticky {
+  from{
+    top: -100px;
+  }
+  to{
+    top: 0;
+  }
+}
+
+.navbar.sticky-menu .nav-link{
+  color: #000;
+}
+
+
+
+.back-to-top{
+  position: fixed;
+  bottom: 100px;
+  right: 35px;
+  display: none;
+}
+.back-to-top i{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.vbox-close {
+  top: 10px !important;
+  right: 20px !important;
+}
