@@ -1,0 +1,277 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+    .ban-text h1 {
+        font-size: 84px;
+    }
+    .ban-text h2 {
+        font-size: 52px;
+    }
+    .ban-button {
+        padding-top: 70px;
+    }
+    .ban-text h1::after {
+        bottom: -30px;
+    }
+    .comment-text {
+        padding-left: 50px;
+    }
+    .comment-text p {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .f-form button {
+        right: 1px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .navbar {
+        position: static;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .ban-text h2 {
+        font-size: 50px;
+    }
+    .ban-text h1 {
+        font-size: 64px;
+    }
+    .ban-button {
+        padding-top: 35px;
+    }
+    .ban-text h1::after {
+        display: none;
+    }
+    .service-item-b {
+        padding-top: 0;
+    }
+    .comment-text h1 {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .comment-text h1::after {
+      display: none;
+    }
+    #footer {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .f-left-content p {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+    }
+    .f-bolg-content{
+        margin-left: 0;
+    }
+    .f-gal-head{
+        margin-top: 20px;
+    }
+    .f-blog{
+        margin-top: 20px;
+    }
+    .f-blog .blog {
+        padding-bottom: 18px;
+    }
+    .f-form button {
+        right: 160px;
+    }
+  
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .navbar {
+        position: static;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+    .ban-text h2 {
+        font-size: 40px;
+    }
+    .ban-text h1::after {
+        display: none;
+    }
+    .ban-text h1 {
+        font-size: 30px;
+    }
+    .ban-button {
+        padding-top: 40px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .service-item-b {
+        padding-top: 0;
+    }
+    #about {
+        padding-top: 50px;
+    }
+    .about-content p {
+        padding-top: 30px;
+    }
+    .about-content p {
+        padding-bottom: 50px;
+    }
+    .item-content p {
+        padding: 0 35px;
+    }
+    #comment {
+        padding-top: 50px; 
+    }
+    .comment-text p {
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .comment-text h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+    .comment-text h1::after {
+        display: none;
+    }
+
+    #team {
+        padding-top: 50px;
+    }
+    #work {
+        padding-top: 50px;
+    }
+    .f-bolg-content {
+        margin: 10px 0px 0px 22px;
+    }
+    .f-bolg-content {
+        margin: 10px 0px 7px 0px;
+    }
+}
+@media(max-width: 575.99px){
+    .navbar {
+        position: static;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .ban-text h2 {
+        font-size: 18px;
+    }
+    .ban-text h1 {
+        font-size: 20px;
+    }
+    .ban-text h1::after{
+        display: none;
+    }
+    .ban-button {
+        padding-top: 16px;
+    }
+    .ban-button a {
+        font-size: 13px;
+        padding: 4px 12px;
+    }
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .about-content h1 {
+        font-size: 22px;
+    }
+    .about-content h1::after {
+        bottom: 16px;
+    }
+    .about-content p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-top: 8px;
+        padding-bottom: 40px;
+    }
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service-item-b {
+        padding-top: 0px;
+    }
+    .service-wapper {
+        margin-top: 20px;
+    }
+    .item-content p {
+        padding-right: 0;
+    }
+    .comment-text p {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .comment-text h1 {
+        padding-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .comment-text h1::after {
+        display: none;
+    }
+    #work {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .f-left-content p {
+        width: 290px;
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    .followers-icon a {
+        padding-right: 10px;
+    }
+    .f-form input {
+        width: 100%;
+    }
+    .f-form button {
+        position: static;
+        padding: 10px 26px;
+        margin-top: 20px;
+    }
+    .f-blog-head h5, .f-gal-head h5 {
+        padding-top: 20px;
+    }
+    .f-bolg-content {
+        margin-left: 0;
+    }
+    .f-blog-head h5, .f-gal-head h5 {
+        padding-bottom: 16px;
+    }
+}
+@media(min-width: 485px) and (max-width: 575.99px){
+    .item-content p {
+        padding-right: 0;
+        padding: 0 80px;
+    }
+    .ban-text h1 {
+        font-size: 28px;
+    }
+    .ban-text h2 {
+        font-size: 35px;
+    }
+}
+@media(min-width: 430px) and (max-width: 575.99px){
+    .ban-text h1 {
+        font-size: 28px;
+    }
+    .ban-text h2 {
+        font-size: 35px;
+    }
+}
+
+

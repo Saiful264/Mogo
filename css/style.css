@@ -85,7 +85,7 @@ html,body{
 }
 .ban-text h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 150px;
+  font-size: 140px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -229,6 +229,9 @@ html,body{
 .service-wapper {
   margin-top: 70px;
 }
+.service-item-b {
+	padding-top: 50px;
+}
 .item-icon i {
   font-size: 28px;
   color: #95e1d3;
@@ -242,7 +245,7 @@ html,body{
 }
 .item-content p {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #999;
   padding-right: 40px;
@@ -257,6 +260,7 @@ html,body{
 .comment-icon-end i {
   font-size: 22px;
   color: #cccccc;
+  line-height: 150px;
 }
 .comment-icon {
   width: 152px;
@@ -275,14 +279,18 @@ html,body{
   font-size: 22px;
   color: #999;
   font-style: italic;
+  margin-bottom: 0;
 }
 .comment-text h1 {
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-  font-size: 24px;
-  color: #333;
-  position: relative;
-  padding-left: 70px;
+	font-family: "Kaushan Script", cursive;
+	font-weight: 400;
+	font-size: 24px;
+	color: #333;
+  text-align: left;
+	position: relative;
+	padding-left: 70px;
+	margin-bottom: 0;
+	margin-top: 10px;
 }
 .comment-text h1::after {
   content: "";
@@ -298,6 +306,9 @@ html,body{
 /* Team css part */
 #team {
   padding-top: 100px;
+}
+.team-wapper{
+  margin: 0 12px;
 }
 .team-img {
   position: relative;
@@ -473,13 +484,13 @@ html,body{
   outline: none;
 }
 .f-form button {
-  padding: 14px 25px;
-  background-color: #95e1d3;
-  color: #fff;
-  border: none;
-  position: absolute;
-  top: 0;
-  right: 76px;
+	padding: 14px 25px;
+	background-color: #95e1d3;
+	color: #fff;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 38px;
 }
 .f-gal-img img {
   border: 2px solid #f8f8f8;
@@ -544,6 +555,7 @@ html,body{
   font-style: italic;
   padding-top: 14px;
 }
+
 /* footer css end */
 /* sticky menu */
 .sticky-menu{

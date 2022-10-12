@@ -1,4 +1,5 @@
 $(function () {
+//
   $(".banner-slider-wapper").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -7,6 +8,7 @@ $(function () {
     arrows: false,
     pauseOnHover: false,
   });
+//service part
   $(".about-main-slider").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -14,22 +16,69 @@ $(function () {
     autoplaySpeed: 2500,
     arrows: false,
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      }
+    ]
   });
+// Teme slider part
+$(".team-slider").slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  arrows: false,
+  pauseOnHover: false,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    }
+  ]
+});
+  // counter part
   $(".counter").counterUp({
     delay: 10,
     time: 6000,
   });
+  //comment part
   $(".main-cmnt").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2500,
     arrows: true,
     prevArrow: ".left",
     nextArrow: ".right",
     pauseOnHover: false,
   });
-
+//-----sticky navbar start-----
   $(window).scroll(function(){ 
     var top = $(this).scrollTop()
     if (top > 300) {
@@ -48,7 +97,7 @@ $(function () {
   $(".back-to-top").click(function(){
     $("html,body").animate({scrollTop: 0}, 1000)
   })
-
+// work part 
   new VenoBox({
     selector: '.my-image-links',
     numeration: true,
@@ -63,4 +112,5 @@ new VenoBox({
   share: true,
   spinner: 'circle'
 });
+
 });
